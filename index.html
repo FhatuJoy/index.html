@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Portfolio</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+        .menu-icon {
+            cursor: pointer;
+        }
+        .nav-links {
+            display: none;
+            background-color: #333;
+            padding: 15px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    <h1>Fhatuwani Bagane</h1>
+</div>
+
+<div class="nav-links">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="download CV">download CV</a>
+</div>
+
+<div class="content">
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="aced.png" alt="Your Photo" width="200" style="float:right; margin-left: 20px;">
+        <p>Hello! I am Fhatuwani Bagane from South Africa. I am currently studying Software Development at Power Learn Project. I am long life learner who enjoy being at the forefront of technology. I acquired solid foundation in programming like Html, CSS and, Javasript, python. In my spare time enjoy reading tech blogs and creating website.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Html.</p>
+        <P>Css</P>
+        <P>JavaScript</P>
+        <p>python</p>
+        <p>dart with flutter</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Html Form</p>
+        <p>Personal Webpage</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p> The best way to reach me.</p>
+    </section>
+</div>
+
+<div class="footer">
+    <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/fhatuwani-bagane">LinkedIn</a></li>
+        <li><a href="https://github.com/FhatuJoy">GitHub</a></li>
+        <li><a href="https://twitter.com/FhatuBagane">Twitter</a></li>
+        <li><a href="https://web.facebook.com/profile.php?id=100005355097517&sk=about">FaceBook</a></li>
+        <p>&copy; 2024 Fhatuwani Bagane. All rights reserved.</p>
+    </ul>
+</div>
+
+<script>
+    function toggleMenu() {
+        var x = document.getElementsByClassName("nav-links")[0];
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
